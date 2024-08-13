@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./gorseller/yoll.jpg);
+}
+
+p{
+    font-size: 10px;
+    color: #fff;
+    line-height: 16px;
+}
+.btn{
+    padding: 12px 28px;                                    
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 30px;
+    cursor: pointer;
+    color: #000;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid red;
+    text-decoration: none;
+    transition: ease 0.5s;
+}
+
+.btn:hover{
+    background-color: #5e5c5c;
+    
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: ease 0.5s;
+}
+
+nav ul li a:hover{
+    color: #5e5c5c;
+
+}
+.row{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    height: 88%;
+    gap: 50px;
+    justify-content: space-between;
+
+}
+
+.col{
+    flex-basis: 50%;
+    
+}
+
+h1{
+    color: #fff;
+    font-size: 50px;
+}
+
+.description{
+    font-size: 16px;
+}
+.site-info {
+    flex-basis: 50%;
+}
+
+.card-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 48%;
+    height:230px;
+    display: inline-block;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: ease 0.5s;
+}
+
+.card:hover{
+    transform: scale(1.2);
+}
+
+
+.card .card-head{
+    background-color: rgba(0,0,0,0.7);
+    padding: 10px;
+    border-radius: 20px;
+    
+
+
+}
+
+.card .card-head h5{
+    color: #fff;
+
+}
+
+    
+
+
+.logo{
+    height: 100px;
+
+}
+
+.ducati{
+    background-image: url(./gorseller/ducatii.jpg);
+}
+
+.kawasaki{
+    background-image: url(./gorseller/kawasaki.jpg);
+    background-position: 80% center;
+}
+
+.m1000rr{
+    background-image: url(https://www.webtekno.com/images/editor/default/0002/83/78bdcf87a5db497d656fe48f16244b2d9a3e0b95.jpeg);
+    
+}
+    
+
+.triumph{
+    background-image: url(./gorseller/triumph.jpg);
+}
+
